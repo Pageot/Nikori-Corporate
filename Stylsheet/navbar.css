@@ -1,0 +1,27 @@
+#navbar {
+  background-color: rgb(13, 13, 35);
+  opacity: 0.749;
+  height: 66px;
+  border: none;
+  border-radius: 0px;
+}
+
+#navbar a{
+  color: #ffffeb;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 4px;
+
+}
+
+.flag {
+  height: 11px;
+}
+
+
+#logo {
+  width: 35px;
+  margin-top: -7px;
+  
+}
