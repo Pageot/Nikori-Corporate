@@ -1,0 +1,58 @@
+#contact {
+  background-color: #e7e7cd;
+}
+
+.col-sm-4 {
+  padding: 0px;
+}
+
+.form-horizontal .form-group{
+  margin: 5px;
+}
+
+.btn .btn-default {
+  display: inline-block;
+}
+
+#contact .btn-nikori{
+  width: 100%;
+  background-color: #ffffeb;
+}
+
+#contact h2 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  padding-top: 8rem;
+  margin-top: 0px;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+}
+
+#contact .form-control {
+  background-color: #ffffeb;
+  border: none;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
+
+  ::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+}
+
+
+
+.contact-left{
+  height: 50px;
+}
