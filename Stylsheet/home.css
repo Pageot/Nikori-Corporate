@@ -1,5 +1,7 @@
 @import url(navbar.css);
 @import url(header.css);
+@import url(explain.css);
+@import url(projets.css);
 
 body {
   background-color: #ffffeb;

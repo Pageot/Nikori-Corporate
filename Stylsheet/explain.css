@@ -1,0 +1,43 @@
+#container-explain img {
+  width: 35px;
+}
+
+#container-explain h2 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 15rem;
+}
+
+.collum {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.collum p {
+  text-align: justify;
+  margin-top: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+
+.container-btn{
+  width: 100%;
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.btn-nikori {
+  color: #7ccce1;
+  border: 1px solid #7ccce1;
+  padding: 10px 55px;
+  border-radius: 5px;
+  font-weight: 300;
+}
+.btn-nikori:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #6eb4c6;
