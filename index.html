@@ -26,17 +26,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img id="logo" src="img/logo-nikori.png" alt="Logo Nikori"></a>
+      <a class="navbar-brand" href="http://nikori-guild.com"><img id="logo" src="img/logo-nikori.png" alt="Logo Nikori"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROJETS</a></li>
-        <li><a href="#">L'EQUIPE</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a class="js-scrollTo" href="#explain">ABOUT</a></li>
+        <li><a class="js-scrollTo" href="#projets">PROJETS</a></li>
+        <li><a class="js-scrollTo" href="#staff">L'EQUIPE</a></li>
+        <li><a class="js-scrollTo" href="#contact">CONTACT</a></li>
         <li><a href="#"><img class="flag" src="img/icons/flag-fr.jpg" alt="Site en Français"></a></li>
         <li><a href="#"><img class="flag" src="img/icons/flag-en.jpg" alt="Site en Englais"></a></li>
       </ul>
@@ -57,7 +57,7 @@
         <h3>
             HELLO !
         </h3>
-        <a href="#"><img src="img/icons/arrow-down.png" alt="Lire la suite"></a>
+        <a id="explain" class="js-scrollTo" href="#explain"><img src="img/icons/arrow-down.png" alt="Lire la suite"></a>
       </div>
     </div>
 
@@ -124,51 +124,57 @@ Du coup pour l'instant nous travaillons sur le second, mais une surprise faite s
        <div class="row row-centered">
         <div id="container-projets">
             <div class="hovereffect col-lg-3 col-md-4 col-sm-4 col-xs-10 col-centered">
+             <a href="#">
               <img class="img-responsive" src="img/sentinelles-dechues.jpg" alt="Les sentinelles dechues">
                   <div class="overlay">
-                     <a href="#"><h2>Les Sentinelles Déchues</h2></a>
+                     <h2>Les Sentinelles Déchues</h2>
                       <p class="icon-links">
-                          <a href="#">
-                              <span class="fa fa-twitter"></span>
+                          <a href="https://twitter.com/NikoriGuild">
+                              <span class="fa fa-twitter" target="_blank"></span>
                           </a>
-                          <a href="#">
+                          <a href="https://www.facebook.com/nikoriguild" target="_blank">
                               <span class="fa fa-facebook"></span>
                           </a>
                       </p>
                   </div>
+              </a>
             </div>
         
           
             <div class="hovereffect col-lg-3 col-md-4 col-sm-4 col-xs-10 col-centered">
+             <a href="#">
               <img class="img-responsive" src="img/mary-the-guest.jpg" alt="Mary the Guest">
                   <div class="overlay">
-                     <a href="#"><h2>Mary The Guest</h2></a>
+                     <h2>Mary The Guest</h2>
                       <p class="icon-links">
-                          <a href="#">
-                              <span class="fa fa-twitter"></span>
+                          <a href="https://twitter.com/NikoriGuild">
+                              <span class="fa fa-twitter" target="_blank"></span>
                           </a>
-                          <a href="#">
+                          <a href="https://www.facebook.com/nikoriguild" target="_blank">
                               <span class="fa fa-facebook"></span>
                           </a>
                       </p>
                   </div>
+              </a>
             </div>
    
           
         
             <div class="hovereffect col-lg-3 col-md-4 col-sm-4 col-xs-10 col-centered">
+             <a href="#">
               <img class="img-responsive" src="img/turduwan.jpg" alt="Turduwan">
                   <div class="overlay">
-                     <a href="#"><h2>Turduwan</h2></a>
+                     <h2>Turduwan</h2>
                       <p class="icon-links">
-                          <a href="#">
-                              <span class="fa fa-twitter"></span>
+                          <a href="https://twitter.com/NikoriGuild">
+                              <span class="fa fa-twitter" target="_blank"></span>
                           </a>
-                          <a href="#">
+                          <a href="https://www.facebook.com/nikoriguild" target="_blank">
                               <span class="fa fa-facebook"></span>
                           </a>
                       </p>
                   </div>
+              </a>
             </div>
       </div>
       </div>
@@ -178,7 +184,6 @@ Du coup pour l'instant nous travaillons sur le second, mais une surprise faite s
     
     
 <!--Le Staff-->
-
     <h2 id="staff">Le Staff</h2>
 
 <!--personnes-->
@@ -337,25 +342,42 @@ Du coup pour l'instant nous travaillons sur le second, mais une surprise faite s
        
         <div class="form-group">
           <div class="col-sm-12">
-            <button type="submit" class="btn-nikori">Sign in</button>
+            <button type="submit" class="btn-nikori">Envoyer</button>
           </div>
         </div>
       </div>      
     </form>
   </div>
   
-<!--reseaux-sociaux-->
+<!--footer-->
     
-    
-    <div class="share"></div>
-    <div class="share"></div>
-    <div class="share"></div>
-   
+  <div id="footer">
+    <a href="#"><i class="fa fa-power-off flex-item"></i></a>
+    <h5 class="flex-item">©2016 NIKORI GUILD</h5>
+    <div class="share flex-item">
+      <div class="float-right">
+        <a href="https://www.facebook.com/nikoriguild" target="_blank"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://twitter.com/NikoriGuild" target="_blank"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://www.youtube.com/channel/UCanQpimqlHfEz8kUAYzZqOQ" target="_blank"><i class="fa fa-youtube-play"></i></a>
+      </div>
+    </div>
+  </div>
     
       
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+    <script>
+      $(document).ready(function() {
+          $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+              var page = $(this).attr('href'); // Page cible
+              var speed = 750; // Durée de l'animation (en ms)
+              $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+              return false;
+          });
+      });
+    </script>
   
   
   </body>

@@ -1,0 +1,42 @@
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  background-color: #222234;
+  color: #ffffeb;
+}
+
+.flex-item {
+  flex: 0 0 200px;
+}
+
+
+
+.float-right {
+  float: right;
+  font-size: 4rem;
+}
+
+.fa-power-off{
+  padding-left: 4rem;
+}
+
+#footer h5{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin-left: 7rem;
+}
+
+.fa-youtube-play{
+  padding-right: 4rem;
+}
+
+#footer a{
+  color: #ffffeb;
+}
+
+#footer a:hover{
+  color: #e3e3d0;
+}

@@ -56,3 +56,9 @@
 .contact-left{
   height: 50px;
 }
+
+/*reseaux sociaux*/
+
+.share {
+    display: inline-block;
+}
