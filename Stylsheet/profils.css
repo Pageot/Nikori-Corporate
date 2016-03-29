@@ -34,8 +34,11 @@
 }
 
 .profil p{
-  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  text-align: left;
   font-size: 1.8rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  padding-top: 0.4rem
 }

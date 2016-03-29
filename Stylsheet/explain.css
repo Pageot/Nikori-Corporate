@@ -1,3 +1,6 @@
+/*CSS de la category about*/
+
+
 #container-explain img {
   width: 35px;
 }
@@ -16,13 +19,16 @@
 }
 
 .collum p {
-  text-align: justify;
   margin-top: 2.5rem;
+  text-align: left;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 1.5rem;
 }
 
+.col-xs-10{
+  padding-right: 0px;
+}
 
 .container-btn{
   width: 100%;
@@ -38,6 +44,10 @@
   font-weight: 300;
 }
 .btn-nikori:hover {
+  transition-property: all;
+  transition-duration: 0.4s;
   opacity: 1;
   text-decoration: none;
-  color: #6eb4c6;
+  color: #fff;
+  background-color: #7ccce1;
+}
